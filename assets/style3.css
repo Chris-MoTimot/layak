@@ -1,0 +1,20 @@
+:root { --navy: #003366; --blue: #00a8e8; --orange: #e67e22; --light: #f8fafc; --white: #ffffff; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Poppins', sans-serif; background-color: var(--light); color: #334155; line-height: 1.6; }
+        
+    /* Navigation */
+    nav { background: var(--white); padding: 15px 8%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
+    .logo { font-weight: 600; font-size: 22px; color: var(--navy); text-decoration: none; }
+    .logo span { color: var(--orange); }
+    nav div a { text-decoration: none; color: #64748b; margin-left: 25px; font-weight: 400; transition: 0.3s; }
+    nav div a:hover { color: var(--orange); }
+    .btn-donasi { background: var(--orange); color: #fff !important; padding: 10px 25px; border-radius: 50px; font-weight: 600; box-shadow: 0 4px 10px rgba(230, 126, 34, 0.3); }
+
+    .container { padding: 60px 8%; }
+    .section-title { text-align: center; margin-bottom: 50px; }
+    .section-title h1 { color: var(--navy); font-size: 32px; position: relative; padding-bottom: 15px; }
+    .section-title h1::after { content: ''; width: 60px; height: 4px; background: var(--orange); position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); border-radius: 2px; }
+        
+    /* Buttons */
+    .btn-primary { background: var(--navy); color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; display: inline-block; font-weight: 600; transition: 0.3s; }
+    .btn-primary:hover { background: var(--blue); transform: translateY(-2px); }
