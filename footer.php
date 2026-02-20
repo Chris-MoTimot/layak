@@ -25,7 +25,9 @@
             <h3 style="margin-bottom: 20px;">Media Sosial</h3>
             <p style="font-size: 14px;">Ikuti aktivitas kami di:</p>
             <ul style="list-style: none; padding: 0; line-height: 2.5;">
-                <li><a href="https://www.instagram.com/yayasan_layak/" style="color: white; text-decoration: none;">Instagram</a></li>
+                <li><a href="https://www.instagram.com/yayasan_layak/" style="color: white; text-decoration: none;" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/share/1Ab5dySxnX/" style="color: white; text-decoration: none;" target="_blank">Facebook</a></li>
+                <li><a href="https://www.youtube.com/@yayasanlayak8997" style="color: white; text-decoration: none;" target="_blank">YouTube</a></li>
             </ul>
         </div>
 

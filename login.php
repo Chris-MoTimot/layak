@@ -151,7 +151,7 @@ if (isset($_POST['login'])) {
 <body>
 
 <div class="login-container">
-    <a href="index.php" class="logo-text">LAYAK<span>.org</span></a>
+    <a href="index.php" class="logo-text">LAYAK<span></a>
     <h2>Admin Login</h2>
     <p>Silakan masuk untuk mengelola konten.</p>
 

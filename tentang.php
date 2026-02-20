@@ -7,25 +7,6 @@
 </div>
 
 <div class="content-wrapper">
-    
-    <div class="glass-card">
-        <span class="section-tag">Aspiration</span>
-        <h2 style="color: var(--navy); margin-bottom: 10px;">Visi & Misi</h2>
-        <div style="padding: 20px; background: #fff9f4; border-radius: 15px; margin-bottom: 30px;">
-            <h4 style="color: var(--orange); margin-bottom: 10px;">Visi Kami:</h4>
-            <p style="color: var(--text-gray); font-size: 1.1rem; line-height: 1.6;">
-                "Terwujudnya anak dan keluarga yang berdaya; mampu mengenali dan memecahkan masalah secara mandiri di bidang kesehatan, ekonomi, pendidikan, dan sosial."
-            </p>
-        </div>
-        
-        <h4 style="color: var(--navy); margin-left: 5px;">Misi Strategis:</h4>
-        <div class="misi-grid">
-            <div class="misi-item">Memberdayakan anak dan keluarga melalui penjangkauan, pendampingan, dan manajemen kasus.</div>
-            <div class="misi-item">Membangun kesadaran kritis masyarakat terhadap pemenuhan hak-hak anak dan perempuan.</div>
-            <div class="misi-item">Mengupayakan kemandirian organisasi untuk keberlanjutan pelayanan secara profesional.</div>
-            <div class="misi-item">Mendorong terciptanya kebijakan publik yang berpihak pada kepentingan terbaik anak.</div>
-        </div>
-    </div>
 
     <div class="glass-card">
         <span class="section-tag">Our Origin</span>
@@ -58,6 +39,35 @@
         </div>
     </div>
 
+    <div class="glass-card" style="text-align: center;">
+        <span class="section-tag">Leadership</span>
+        <h2 style="color: var(--navy); margin-bottom: 35px;">Dewan Pengurus Yayasan</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+            <div style="padding: 25px; background: #f8fafc; border-radius: 15px;">
+                <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">KETUA PEMBINA</p>
+                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Sumarni Surbakti, MBA</p>
+                <br>
+                <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">Anggota</p>
+                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Yeremias Wutun, M.Si</p>
+                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">dr.Alexander Kaliga Ginting Suka, MD, Sp.P, FCCP</p>
+            </div>
+            <div style="padding: 25px; background: #f8fafc; border-radius: 15px;">
+                <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">KETUA PENGAWAS</p>
+                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Dra. Jenny Tarigan</p>
+            </div>
+            <div style="padding: 25px; background: #f8fafc; border-radius: 15px;">
+                <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">KETUA PENGURUS</p>
+                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Dra. Evie Suranta Tarigan</p>
+                <br>
+                <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">Anggota</p>
+                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Dra. H.Frida M. Girsang</p>
+                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Lucia Rusmiyati,S.Sos</p>
+                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Ribka Pittaria, M.Si</p>
+                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Dra. Erna Indiaswari</p>
+            </div>
+        </div>
+    </div>
+
     <div class="glass-card">
         <span class="section-tag">Our Journey</span>
         <h2 style="color: var(--navy); margin-bottom: 10px;">Rekam Jejak & Kolaborasi</h2>
@@ -68,7 +78,7 @@
                 <div class="timeline-item">
                     <span class="year-tag">2005</span>
                     <div class="timeline-content">
-                        <strong>ICMC & IOM</strong>
+                        <strong>IOM</strong>
                         Program penanggulangan Tindak Pidana Perdagangan Orang (TPPO).
                     </div>
                 </div>
@@ -76,7 +86,7 @@
                 <div class="timeline-item">
                     <span class="year-tag">2008</span>
                     <div class="timeline-content">
-                        <strong>TDH Belanda - Indo ACT</strong>
+                        <strong>TDH Belanda</strong>
                         Dukungan kepada anak dan keluarga rentan serta korban trafiking di Jakarta Utara.
                     </div>
                 </div>
@@ -84,21 +94,29 @@
                 <div class="timeline-item">
                     <span class="year-tag">2013</span>
                     <div class="timeline-content">
-                        <strong>Kemensos</strong>
-                        Bantuan AMPK (Anak dengan Berkebutuhan Khusus) korban TPPO & Program Taman Anak Sekolah.
-                        <br><br>
                         <strong>USAID-SUM II, DERAP</strong>
                         Program HIV/AIDS kepada kelompok populasi kunci di wilayah Jakarta Utara.
                         <br><br>
                         <strong>Global Fund</strong>
                         Program HIV/AIDS kepada kelompok populasi kunci dan HRM di Jakarta Utara.
+                        <br><br>
+                        <strong>Kemensos</strong>
+                        Bantuan AMPK (Anak dengan Berkebutuhan Khusus) korban TPPO & Program Taman Anak Sekolah.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year-tag">2015</span>
+                    <div class="timeline-content">
+                        <strong>Uni Eropa</strong>
+                        -
                     </div>
                 </div>
 
                 <div class="timeline-item">
                     <span class="year-tag">2016</span>
                     <div class="timeline-content">
-                        <strong>LINKAGES-USAID</strong>
+                        <strong>USAID-LINKAGES</strong>
                         Program HIV/AIDS kepada kelompok populasi kunci di Jakarta Utara. Meluas ke Jakarta Pusat.
                     </div>
                 </div>
@@ -114,7 +132,7 @@
                 <div class="timeline-item">
                     <span class="year-tag">2019</span>
                     <div class="timeline-content">
-                        <strong>LINKAGES-USAID</strong>
+                        <strong>USAID-LINKAGES</strong>
                         Perluasan program ke wilayah Jakarta Timur.
                     </div>
                 </div>
@@ -254,36 +272,6 @@
             </div>
         </div>
     </div>
-
-    <div class="glass-card" style="text-align: center;">
-        <span class="section-tag">Leadership</span>
-        <h2 style="color: var(--navy); margin-bottom: 35px;">Dewan Pengurus Yayasan</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
-            <div style="padding: 25px; background: #f8fafc; border-radius: 15px;">
-                <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">KETUA PEMBINA</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Sumarni Surbakti, MBA</p>
-                <br>
-                <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">Anggota</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Yeremias Wutun, M.Si</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">dr.Alexander Kaliga Ginting Suka, MD, Sp.P, FCCP</p>
-            </div>
-            <div style="padding: 25px; background: #f8fafc; border-radius: 15px;">
-                <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">KETUA PENGAWAS</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Dra. Jenny Tarigan</p>
-            </div>
-            <div style="padding: 25px; background: #f8fafc; border-radius: 15px;">
-                <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">KETUA PENGURUS</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Dra. Evie Suranta Tarigan</p>
-                <br>
-                <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">Anggota</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Dra. H.Frida M. Girsang</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Lucia Rusmiyati,S.Sos</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Ribka Pittaria, M.Si</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Dra. Erna Indiaswari</p>
-            </div>
-        </div>
-    </div>
-
 </div>
 
 <?php include 'footer.php'; ?>

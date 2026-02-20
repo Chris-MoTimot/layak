@@ -37,7 +37,7 @@
     <div>
         <a href="index.php">Home</a>
         <a href="tentang.php">Profil</a>
-        <a href="berita.php">Kabar Anak</a>
+        <a href="berita.php">Program</a>
         <a href="kontak.php">Kontak</a>
         <a href="donasi.php" class="btn-donasi">Dukung Kami</a>
     </div>
@@ -46,7 +46,7 @@
 <div id="mobileMenu" class="mobile-menu">
     <a href="index.php">Home</a>
     <a href="tentang.php">Profil</a>
-    <a href="berita.php">Kabar Anak</a>
+    <a href="berita.php">Program</a>
     <a href="kontak.php">Kontak</a>
     <a href="donasi.php">Dukung Kami</a>
 </div>

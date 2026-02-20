@@ -9,52 +9,66 @@
     </div>
 </div>
 <br>
-<div class="container" style="text-align: center;">
-    <h2 style="margin-bottom: 10px; color: var(--navy);">Bidang Fokus Pelayanan</h2>
-    <p style="margin-bottom: 40px; color: #666;">Empat pilar utama kemandirian anak dan keluarga</p>
-    
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px;">
-        <div class="card" style="padding: 30px;">
-            <div style="font-size: 40px; margin-bottom: 15px;">🏥</div>
-            <h4 style="color: var(--navy);">Kesehatan</h4>
-            <p style="font-size: 14px;">Kesehatan reproduksi, HIV/AIDS, dan layanan Low Vision.</p>
-        </div>
-        <div class="card" style="padding: 30px;">
-            <div style="font-size: 40px; margin-bottom: 15px;">📚</div>
-            <h4 style="color: var(--navy);">Pendidikan</h4>
-            <p style="font-size: 14px;">Akses pendidikan formal dan non-formal bagi anak rentan.</p>
-        </div>
-        <div class="card" style="padding: 30px;">
-            <div style="font-size: 40px; margin-bottom: 15px;">💼</div>
-            <h4 style="color: var(--navy);">Ekonomi</h4>
-            <p style="font-size: 14px;">Peningkatan keterampilan ekonomi untuk kemandirian keluarga.</p>
-        </div>
-        <div class="card" style="padding: 30px;">
-            <div style="font-size: 40px; margin-bottom: 15px;">⚖️</div>
-            <h4 style="color: var(--navy);">Sosial & Advokasi</h4>
-            <p style="font-size: 14px;">Manajemen kasus anak korban kekerasan dan trafficking.</p>
-        </div>
-    </div>
-</div>
 
 <div class="content-wrapper">
+    <div class="container" style="text-align: center;">
+        <h2 style="margin-bottom: 10px; color: var(--navy);">Bidang Fokus Pelayanan</h2>
+        <p style="margin-bottom: 40px; color: #666;">Empat pilar utama kemandirian anak dan keluarga</p>
     
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px;">
+            <div class="card" style="padding: 30px;">
+                <div style="font-size: 40px; margin-bottom: 15px;">🏥</div>
+                <h4 style="color: var(--navy);">Kesehatan</h4>
+                <p style="font-size: 14px;">Kesehatan reproduksi, HIV/AIDS, dan layanan Low Vision.</p>
+            </div>
+            <div class="card" style="padding: 30px;">
+                <div style="font-size: 40px; margin-bottom: 15px;">📚</div>
+                <h4 style="color: var(--navy);">Pendidikan</h4>
+                <p style="font-size: 14px;">Akses pendidikan formal dan non-formal bagi anak rentan.</p>
+            </div>
+            <div class="card" style="padding: 30px;">
+                <div style="font-size: 40px; margin-bottom: 15px;">💼</div>
+                <h4 style="color: var(--navy);">Ekonomi</h4>
+                <p style="font-size: 14px;">Peningkatan keterampilan ekonomi untuk kemandirian keluarga.</p>
+            </div>
+            <div class="card" style="padding: 30px;">
+                <div style="font-size: 40px; margin-bottom: 15px;">⚖️</div>
+                <h4 style="color: var(--navy);">Sosial & Advokasi</h4>
+                <p style="font-size: 14px;">Manajemen kasus anak korban kekerasan dan trafficking.</p>
+            </div>
+        </div>
+    </div>
     <div class="glass-card">
         <span class="section-tag">Aspiration</span>
         <h2 style="color: var(--navy); margin-bottom: 10px;">Visi & Misi</h2>
         <div style="padding: 20px; background: #fff9f4; border-radius: 15px; margin-bottom: 30px;">
-            <h4 style="color: var(--orange); margin-bottom: 10px;">Visi Kami:</h4>
+            <h4 style="color: var(--orange); margin-bottom: 10px;">Visi:</h4>
             <p style="color: var(--text-gray); font-size: 1.1rem; line-height: 1.6;">
                 "Terwujudnya anak dan keluarga yang berdaya; mampu mengenali dan memecahkan masalah secara mandiri di bidang kesehatan, ekonomi, pendidikan, dan sosial."
             </p>
         </div>
         
-        <h4 style="color: var(--navy); margin-left: 5px;">Misi Strategis:</h4>
+        <h4 style="color: var(--navy); margin-left: 5px;">Misi:</h4>
         <div class="misi-grid">
-            <div class="misi-item">Memberdayakan anak dan keluarga melalui penjangkauan, pendampingan, dan manajemen kasus.</div>
-            <div class="misi-item">Membangun kesadaran kritis masyarakat terhadap pemenuhan hak-hak anak dan perempuan.</div>
-            <div class="misi-item">Mengupayakan kemandirian organisasi untuk keberlanjutan pelayanan secara profesional.</div>
-            <div class="misi-item">Mendorong terciptanya kebijakan publik yang berpihak pada kepentingan terbaik anak.</div>
+            <div class="misi-item">
+                <div class="misi-icon">⚖️</div>
+                <div class="misi-text">Memberdayakan anak dan keluarga melalui penjangkauan, pendampingan, dan manajemen kasus.</div>
+            </div>
+
+            <div class="misi-item">
+                <div class="misi-icon">📢</div>
+                <div class="misi-text">Membangun kesadaran kritis masyarakat terhadap pemenuhan hak-hak anak dan perempuan.</div>
+            </div>
+
+            <div class="misi-item">
+                <div class="misi-icon">🤝</div>
+                <div class="misi-text">Mengupayakan kemandirian organisasi untuk keberlanjutan pelayanan secara profesional.</div>
+            </div>
+
+            <div class="misi-item">
+                <div class="misi-icon">🏛️</div>
+                <div class="misi-text">Mendorong terciptanya kebijakan publik yang berpihak pada kepentingan terbaik anak.</div>
+            </div>
         </div>
     </div>
 

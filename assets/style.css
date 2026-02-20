@@ -48,22 +48,43 @@ body {
     font-size: 13px;
 }
 
-/* ================= MISI GRID ================= */
+/* ================= MISI GRID UPDATED ================= */
 .misi-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Sedikit lebih lebar */
+    gap: 25px;
     margin-top: 20px;
 }
 
 .misi-item {
-    background: #f1f5f9;
+    display: flex; /* Mengaktifkan flexbox */
+    background: #fff; /* Latar belakang utama putih */
+    padding: 0; /* Padding diatur di dalam anak elemen */
+    border-radius: 25px; /* Sudut membulat seperti di gambar */
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: none; /* Hilangkan border-left lama */
+    align-items: stretch;
+}
+
+.misi-icon {
+    background: var(--orange); /* Latar oranye untuk ikon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-width: 80px;
+    font-size: 30px;
+}
+
+.misi-text {
     padding: 25px;
-    border-radius: 15px;
-    border-left: 5px solid var(--orange);
-    color: var(--text-gray);
-    line-height: 1.6;
+    color: #000; /* Teks hitam pekat seperti di gambar */
+    font-size: 1.05rem;
+    line-height: 1.4;
     font-weight: 500;
+    display: flex;
+    align-items: center;
 }
 
 /* ================= STATISTIK ================= */
