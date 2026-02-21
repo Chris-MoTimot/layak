@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
 <link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/styling.css">
 
 <div class="about-hero">
     <h1 style="font-size: 3rem; font-weight: 700; margin-bottom: 10px;">Profil Yayasan LAYAK</h1>
@@ -43,27 +44,46 @@
         <span class="section-tag">Leadership</span>
         <h2 style="color: var(--navy); margin-bottom: 35px;">Dewan Pengurus Yayasan</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+            
             <div style="padding: 25px; background: #f8fafc; border-radius: 15px;">
                 <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">KETUA PEMBINA</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Sumarni Surbakti, MBA</p>
+                <p class="clickable-name" onclick="openModal('Sumarni Surbakti, MBA', 'Beliau merupakan Ketua Pembina Yayasan LAYAK yang memiliki latar belakang pendidikan MBA.', 'img/sumarni.png')">Sumarni Surbakti, MBA</p>
                 <br>
                 <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">Anggota</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Yeremias Wutun, M.Si</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">dr.Alexander Kaliga Ginting Suka, MD, Sp.P, FCCP</p>
+                <p class="clickable-name" onclick="openModal('Yeremias Wutun, M.Si', 'Yeremias Wutun adalah anggota pembina dengan keahlian dalam ilmu sosial.', 'img/yeremias.png')">Yeremias Wutun, M.Si</p>
+                <p class="clickable-name" onclick="openModal('dr.Alexander Kaliga Ginting Suka', 'dr. Alexander adalah seorang praktisi medis yang mendukung aspek kesehatan.', 'img/alexander.png')">dr.Alexander Kaliga Ginting Suka, MD, Sp.P, FCCP</p>
             </div>
+
             <div style="padding: 25px; background: #f8fafc; border-radius: 15px;">
                 <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">KETUA PENGAWAS</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Dra. Jenny Tarigan</p>
+                <p class="clickable-name" onclick="openModal('Dra. Jenny Tarigan', 'Dra. Jenny Tarigan bertugas mengawasi jalannya roda organisasi.', 'img/jenny.png')">Dra. Jenny Tarigan</p>
             </div>
+
             <div style="padding: 25px; background: #f8fafc; border-radius: 15px;">
                 <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">KETUA PENGURUS</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Dra. Evie Suranta Tarigan</p>
+                <p class="clickable-name" onclick="openModal('Dra. Evie Suranta Tarigan', 'Ketua Pengurus yang bertanggung jawab atas koordinasi harian.', 'img/evie.png')">Dra. Evie Suranta Tarigan</p>
                 <br>
                 <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">Anggota</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Dra. H.Frida M. Girsang</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Lucia Rusmiyati,S.Sos</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Ribka Pittaria, M.Si</p>
-                <p style="font-weight: 600; color: var(--navy); font-size: 1.1rem;">Dra. Erna Indiaswari</p>
+                <p class="clickable-name" onclick="openModal('Dra. H.Frida M. Girsang', 'Anggota pengurus dengan dedikasi tinggi pada isu kesejahteraan sosial.', 'img/frida.png')">Dra. H.Frida M. Girsang</p>
+                <p class="clickable-name" onclick="openModal('Lucia Rusmiyati, S.Sos', 'Latar belakang Sosiologi yang membantu dalam pemetaan kebutuhan sosial.', 'img/lucia.png')">Lucia Rusmiyati,S.Sos</p>
+                <p class="clickable-name" onclick="openModal('Ribka Pittaria, M.Si', 'Pakar dalam manajemen program sosial.', 'img/ribka.png')">Ribka Pittaria, M.Si</p>
+                <p class="clickable-name" onclick="openModal('Dra. Erna Indiaswari', 'Mendukung implementasi program di lapangan.', 'img/erna.png')">Dra. Erna Indiaswari</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="bioModal" class="modal-overlay" onclick="closeModal()">
+        <div class="modal-card" onclick="event.stopPropagation()">
+            <div class="modal-sidebar">
+                <div class="modal-circle">
+                    <img id="modalImg" src="" alt="Foto Pengurus" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: none;">
+                    <i id="defaultIcon" class="fas fa-user" style="font-size: 50px; color: #fff;"></i>
+                </div>
+            </div>
+            <div class="modal-body">
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+                <h3 id="modalName">Nama Pengurus</h3>
+                <p id="modalBio">Deskripsi biografi akan muncul di sini sesuai dengan nama yang diklik.</p>
             </div>
         </div>
     </div>
@@ -273,5 +293,41 @@
         </div>
     </div>
 </div>
+
+<script>
+    function openModal(name, bio, imgSrc) {
+        document.getElementById('modalName').innerText = name;
+        document.getElementById('modalBio').innerText = bio;
+        
+        const modalImg = document.getElementById('modalImg');
+        const defaultIcon = document.getElementById('defaultIcon');
+
+        // Jika ada path gambar, tampilkan gambar. Jika tidak, tampilkan icon.
+        if(imgSrc) {
+            modalImg.src = imgSrc;
+            modalImg.style.display = 'block';
+            defaultIcon.style.display = 'none';
+        } else {
+            modalImg.style.display = 'none';
+            defaultIcon.style.display = 'block';
+        }
+
+        const modal = document.getElementById('bioModal');
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+        const modal = document.getElementById('bioModal');
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    window.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            closeModal();
+        }
+    });
+</script>
 
 <?php include 'footer.php'; ?>
