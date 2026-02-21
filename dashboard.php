@@ -36,7 +36,7 @@ $total_berita = mysqli_num_rows(mysqli_query($conn, "SELECT id FROM berita"));
             </div>
             <div class="stat-card" style="border-left-color: #3b82f6;">
                 <h4>Kategori Aktif</h4>
-                <span>5 Kategori</span>
+                <span>6 Kategori</span>
             </div>
         </div>
 

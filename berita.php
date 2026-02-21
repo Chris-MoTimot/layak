@@ -4,7 +4,7 @@ include 'koneksi.php';
 include 'header.php'; 
 
 $kategori_aktif = isset($_GET['kategori']) ? $_GET['kategori'] : 'Semua';
-$categories = ['Semua', 'ODHA', 'Sosialisasi', 'Low Vision', 'Trafficking', 'Training TPPO'];
+$categories = ['Semua', 'ODHA', 'Sosialisasi', 'Low Vision', 'Trafficking', 'Training TPPO', 'Kisah Inspiratif'];
 ?>
 
 <link rel="stylesheet" href="assets/style.css">

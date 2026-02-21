@@ -53,6 +53,7 @@ if (isset($_POST['upload'])) {
                     <option value="Low Vision">Low Vision</option>
                     <option value="Trafficking">Trafficking</option>
                     <option value="Training TPPO">Training TPPO</option>
+                    <option value="Kisah Inspiratif">Kisah Inspiratif</option>
                 </select>
 
                 <label>Sub Judul (Ringkasan)</label>
