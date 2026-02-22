@@ -66,7 +66,7 @@
                 <p style="font-size: 0.75rem; color: var(--orange); font-weight: 800; letter-spacing: 1px;">Anggota</p>
                 <p class="clickable-name" onclick="openModal('Dra. H.Frida M. Girsang', 'Anggota pengurus dengan dedikasi tinggi pada isu kesejahteraan sosial.', 'img/frida.png')">Dra. H.Frida M. Girsang</p>
                 <p class="clickable-name" onclick="openModal('Lucia Rusmiyati, S.Sos', 'Latar belakang Sosiologi yang membantu dalam pemetaan kebutuhan sosial.', 'img/lucia.png')">Lucia Rusmiyati,S.Sos</p>
-                <p class="clickable-name" onclick="openModal('Ribka Pittaria, M.Si', 'Pakar dalam manajemen program sosial.', 'img/ribka.png')">Ribka Pittaria, M.Si</p>
+                <p class="clickable-name" onclick="openModal('Hariati Br Sembiring', 'Pakar dalam manajemen program sosial.', 'img/hariati.png')">Hariati Br Sembiring</p>
                 <p class="clickable-name" onclick="openModal('Dra. Erna Indiaswari', 'Mendukung implementasi program di lapangan.', 'img/erna.png')">Dra. Erna Indiaswari</p>
             </div>
         </div>
