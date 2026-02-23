@@ -4,11 +4,10 @@
         <div>
             <h2 style="color: var(--orange); margin-bottom: 20px;">Yayasan LAYAK</h2>
             <p style="font-size: 14px; line-height: 1.6; opacity: 0.9;">
-                Jl. Nangka I No. 1, Kel. Tanjung Barat,<br>
-                Kec. Jagakarsa, Jakarta Selatan 12530<br><br>
-                <strong>Telp:</strong> (021) 22783489<br>
-                <strong>WhatsApp:</strong> 0822-1161-0049<br>
-                <strong>Email:</strong> sekretariat@layak.or.id
+                Jl.Raya Lenteng Agung No.42 RT.07/02 <br> Kel.Lenteng Agung, Jagakarsa - Jakarta Selatan<br><br>
+                <strong>Telp:</strong> (021) 22783489 <br>
+                <strong>WhatsApp:</strong> 082211610049<br>
+                <strong>Email:</strong> layak.foundation2001@gmail.com
             </p>
         </div>
 
@@ -35,7 +34,7 @@
             <h3 style="margin-bottom: 20px;">Lokasi Kami</h3>
             <div style="width: 100%; height: 150px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.1);">
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1120.6325972434408!2d106.83615132918142!3d-6.321879715346391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed8950fab9cb%3A0x4c7d2ff6e8b4227e!2sLayanan%20Low%20Vision%20Yayasan%20LAYAK!5e1!3m2!1sid!2sid!4v1771421266080!5m2!1sid!2sid" 
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3965.557573036589!2d106.83429307499118!3d-6.32169399366775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTknMTguMSJTIDEwNsKwNTAnMTIuNyJF!5e0!3m2!1sen!2sid!4v1771838276060!5m2!1sen!2sid" 
                     width="100%" 
                     height="100%" 
                     style="border:0;" 
