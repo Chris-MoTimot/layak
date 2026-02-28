@@ -32,7 +32,8 @@ if (isset($_POST['upload'])) {
     <div class="sidebar">
         <h2>LAYAK<span>.Admin</span></h2>
         <a href="dashboard.php" class="active">📊 <span>Dashboard</span></a>
-        <a href="tambah_berita.php">✍️ <span>Tambah Berita</span></a> <a href="tentang.php">🏢 <span>Profil</span></a>
+        <a href="tambah_berita.php">✍️ <span>Tambah Berita</span></a>
+        <a href="printing.php">ℹ️ <span>Sertifikasi</span></a>
         <div style="margin-top: 50px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
             <a href="logout.php" style="color: #ff7675;">🚪 <span>Keluar</span></a>
         </div>

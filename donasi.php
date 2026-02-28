@@ -75,7 +75,7 @@
 </style>
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <img src="images/brcode.jpeg" alt="QRIS Besar">
+    <img src="img/brcode.jpeg" alt="QRIS Besar">
 </div>
 
 <div class="donation-page-body">
@@ -97,7 +97,7 @@
 
         <div class="donation-qris">
             <div class="qris-box" onclick="openLightbox()">
-                <img src="images/brcode.jpeg" alt="QRIS Donasi">
+                <img src="img/brcode.jpg" alt="QRIS Donasi">
             </div>
             <p class="scan-text">SCAN QRIS DISINI</p>
         </div>

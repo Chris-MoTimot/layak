@@ -73,6 +73,25 @@
     </div>
 
     <div class="glass-card">
+        <span class="section-tag">Profil</span>
+        <h2 style="color: var(--navy); margin-bottom: 10px;">Profil Yayasan</h2>
+        <p style="color: var(--text-gray); margin-bottom: 30px;">Laporan publikasi yayasan dalam format digital.</p>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+            <div class="compro-card" style="background: white; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 280px; overflow: hidden; border: 1px solid #eee;">
+                <div style="background: var(--navy); padding: 30px; text-align: center; height: 180px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <img src="img/logo.jpg" alt="Logo LAYAK" style="width: 80px; margin-bottom: 15px;">
+                    <h3 style="color: white; font-size: 1.2rem; margin: 0;">YAYASAN LAYAK</h3>
+                </div>
+                <div style="padding: 20px; text-align: center;">
+                    <p style="font-weight: bold; color: #333; margin-bottom: 15px;">Profil Organisasi 2025</p>
+                    <a href="Profile Yayasan LAYAK.pdf" download style="display: inline-block; background: var(--orange); color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 14px; font-weight: 600;">Unduh PDF</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="glass-card">
         <span class="section-tag">Social Impact</span>
         <h2 style="color: var(--navy); margin-bottom: 10px;">Penerima Manfaat</h2>
         <p style="color: var(--text-gray);">Total jangkauan layanan hingga periode laporan 2019:</p>

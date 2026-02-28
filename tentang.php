@@ -287,7 +287,7 @@
 
     <div class="glass-card">
         <span class="section-tag">Accountability</span>
-        <h2 style="color: var(--navy); margin-bottom: 10px;">Transparansi Keuangan</h2>
+        <h2 style="color: var(--navy); margin-bottom: 10px;">Pengelolaan Dana</h2>
         
         <div class="finance-grid">
             <div class="finance-info">
