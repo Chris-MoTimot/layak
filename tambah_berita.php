@@ -48,11 +48,10 @@ if (isset($_POST['upload'])) {
                 <label>Kategori</label>
                 <select name="kategori" required style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #ddd;">
                     <option value="">-- Pilih Kategori --</option>
-                    <option value="ODHA">ODHA</option>
-                    <option value="Sosialisasi">Sosialisasi</option>
+                    <option value="HIV-AIDS">HIV-AIDS</option>
                     <option value="Low Vision">Low Vision</option>
-                    <option value="Trafficking">Trafficking</option>
-                    <option value="Training TPPO">Training TPPO</option>
+                    <option value="Human Trafficking">Human Trafficking</option>
+                    <option value="Volunteer">Volunteer</option>
                     <option value="Kisah Inspiratif">Kisah Inspiratif</option>
                 </select>
 

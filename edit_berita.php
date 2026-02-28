@@ -79,7 +79,7 @@ if (isset($_POST['update'])) {
                     <label>Kategori</label>
                     <select name="kategori" required>
                         <?php 
-                        $categories = ['ODHA', 'Sosialisasi', 'Low Vision', 'Trafficking', 'Training TPPO', 'Kisah Inspiratif'];
+                        $categories = ['HIV-AIDS', 'Low Vision', 'Human Trafficking', 'Volunteer', 'Kisah Inspiratif'];
                         foreach($categories as $cat) {
                             $selected = ($data['kategori'] == $cat) ? 'selected' : '';
                             echo "<option value='$cat' $selected>$cat</option>";
