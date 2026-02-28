@@ -96,64 +96,82 @@
         <div class="timeline-container">
             <div class="timeline-horizontal">
                 <div class="timeline-item">
-                    <span class="year-tag">2005</span>
+                    <span class="year-tag">2005-2010</span>
+                    <div class="timeline-content">
+                        <strong>ASA/FHI-USAID & KEMKES</strong>
+                        Manajemen Kasus HIV AIDS di Jakarta dan Training Manajemen Kasus di 12 provinsi di Indonesia.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year-tag">2006-2008</span>
                     <div class="timeline-content">
                         <strong>IOM</strong>
-                        Program penanggulangan Tindak Pidana Perdagangan Orang (TPPO).
+                        Reintegrasi Anak Korban Perdagangan Orang di Jakarta.
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <span class="year-tag">2008</span>
+                    <span class="year-tag">2009-2015</span>
                     <div class="timeline-content">
-                        <strong>TDH Belanda</strong>
-                        Dukungan kepada anak dan keluarga rentan serta korban trafiking di Jakarta Utara.
+                        <strong>Global Fund-PKBI</strong>
+                        Penjangkauan dan Pendampingan Populasi Kunci.
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <span class="year-tag">2013</span>
+                    <span class="year-tag">2011-2012</span>
                     <div class="timeline-content">
-                        <strong>USAID-SUM II, DERAP</strong>
-                        Program HIV/AIDS kepada kelompok populasi kunci di wilayah Jakarta Utara.
-                        <br><br>
-                        <strong>Global Fund</strong>
-                        Program HIV/AIDS kepada kelompok populasi kunci dan HRM di Jakarta Utara.
-                        <br><br>
-                        <strong>Kemensos</strong>
-                        Bantuan AMPK (Anak dengan Berkebutuhan Khusus) korban TPPO & Program Taman Anak Sekolah.
+                        <strong>USAID-SUM I</strong>
+                        Intervensi Komprehensif untuk Korban Penyalahgunaan Narkoba di DKI Jakarta.
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <span class="year-tag">2015</span>
+                    <span class="year-tag">2014-2018</span>
                     <div class="timeline-content">
-                        <strong>Uni Eropa</strong>
-                        -
+                        <strong>LAYAK</strong>
+                        Penjangkauan dan Pelayanan Manajemen Kasus HIV AIDS di Berastagi Kab. Karo-Sumatera Utara
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <span class="year-tag">2016</span>
+                    <span class="year-tag">2015-2017</span>
                     <div class="timeline-content">
-                        <strong>USAID-LINKAGES</strong>
-                        Program HIV/AIDS kepada kelompok populasi kunci di Jakarta Utara. Meluas ke Jakarta Pusat.
+                        <strong>IFRC-European Union</strong>
+                        Asistensi korban Trafficking dan Migrasi Aman di Kabupaten Indramayu.
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <span class="year-tag">2017</span>
+                    <span class="year-tag">2016-2019</span>
                     <div class="timeline-content">
-                        <strong>Kemendikbud</strong>
-                        Program pencegahan Tindak Pidana Perdagangan Orang di Jakarta Utara.
+                        <strong>AHF</strong>
+                        HIV AIDS Testing dan Care Program.
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <span class="year-tag">2019</span>
+                    <span class="year-tag">2015-2020</span>
                     <div class="timeline-content">
-                        <strong>USAID-LINKAGES</strong>
-                        Perluasan program ke wilayah Jakarta Timur.
+                        <strong>CBM-Standart Chartered Bank</strong>
+                        Program Penanganan Anak dengan Kebutaan, Low Vision dan Kerusakan Penglihatan lainnya di Sulawesi Selatan dan DKI Jakarta.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year-tag">2019-2022</span>
+                    <div class="timeline-content">
+                        <strong>BMZ, CBM</strong>
+                        “Low Vision - High Impact” Penguatan Layanan Low Vision di 2 provinsi Indonesia: DKI Jakarta & Jawa Timur.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year-tag">2022-2025</span>
+                    <div class="timeline-content">
+                        <strong>FFS and Tijssen Foundation Netherland</strong>
+                        “Low Vision - Continuum of care” Penguatan Layanan Low Vision di 2 provinsi Indonesia : DKI Jakarta & jawa Timur.
                     </div>
                 </div>
             </div>
@@ -263,7 +281,7 @@
         <p style="color: var(--text-gray); margin-bottom: 25px;">LAYAK berkolaborasi dengan berbagai instansi nasional dan internasional untuk perlindungan anak:</p>
         
         <div class="partner-wrapper">
-            <img src="img/mitra.png" alt="Mitra Yayasan LAYAK" class="partner-logo-img">
+            <img src="img/collab.png" alt="Mitra Yayasan LAYAK" class="partner-logo-img">
         </div>
     </div>
 
